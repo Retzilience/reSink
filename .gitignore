@@ -42,3 +42,6 @@ build_nuitka/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# local exports (not source)
+/source/allapp*.txt
