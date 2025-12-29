@@ -13,7 +13,7 @@ reSink is a small PySide6 GUI for managing PipeWire/PulseAudio sinks with a bias
 - Launch a patchbay tool from one place:
   - qpwgraph / Helvum / Patchance
   - custom executable
-  - aSyphon (resolved from its own `asyphon.cfg` / `[App] last_exe_path`)
+  - aSyphon
 - Help/About dialog with diagnostics and update checking (driven by `version.upd` in this repo)
 
 ## License
