@@ -2,6 +2,8 @@
 
 reSink is a small PySide6 GUI for managing PipeWire/PulseAudio sinks with a bias toward **virtual (null) sinks**. It can create/destroy virtual sinks, set the system default output sink, and launch a patchbay graph UI (qpwgraph/Helvum/Patchance/custom, plus aSyphon via config handoff).
 
+![reSink UI](https://github.com/Retzilience/reSink/raw/main/assets/ui.png)
+
 ## Features
 
 - Create PipeWire null sinks (virtual sinks)
