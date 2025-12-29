@@ -24,3 +24,21 @@ build_nuitka/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# ---- reSink: build + release artifacts ----
+/reSink
+/reSink-linux-*.tar.gz
+*.zip
+
+/build_nuitka/
+/dist/
+/versions/
+
+# local exports / scratch
+/allapp_*.txt
+*.qpwgraph
+
+# python + editor junk
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
