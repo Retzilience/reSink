@@ -14,7 +14,17 @@ reSink is a small PySide6 GUI for managing PipeWire/PulseAudio sinks with a bias
   - qpwgraph / Helvum / Patchance
   - custom executable
   - ![aSyphon](https://github.com/Retzilience/aSyphon)
-- Help/About dialog with diagnostics and update checking (driven by `version.upd` in this repo)
+- Help/About dialog with diagnostics and update checking
+
+## Runtime notes
+
+reSink targets Linux systems running PipeWire (including `pipewire-pulse`). If your desktop audio is already working on PipeWire, you are almost certainly fine.
+
+Two system tools are used for the actual “do the thing” operations:
+- Creating/destroying virtual sinks uses `pw-cli`
+- Setting the default output uses `wpctl`
+
+If either tool is missing, reSink will still open and list sinks, but the related action will fail.
 
 ## License
 
